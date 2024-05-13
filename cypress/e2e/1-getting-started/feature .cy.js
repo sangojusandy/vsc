@@ -6,7 +6,7 @@ describe('Flipkart validation', function() {
         cy.contains('Mobiles').click();
         cy.get('[name="q"]').type('samsung');
         cy.get('[type="submit"]').click();
-        cy.wait(5000);
+        cy.wait(6000);
     });
 
   });
